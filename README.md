@@ -1,3 +1,10 @@
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 # Reproducible Screening For Large Scale Testing Problem
 Screen differentially expressed genes and gene-gene linkage associations 
 
@@ -6,7 +13,10 @@ In large scale testing problems, p-values are usually obtained by using the whol
 
 ## Steps For The Reproducible Screening 
 
-1. Split the whole samples into $$y==x^2$$
+1. Randomly split the whole samples into two data sets with almost equal sample size. 
+2. Calculate the marginal p-values of each hypothesis for each of the two data sets, respectively. Combine the two bunch of p-values together, and fit them to a mixture of uniform and beta distributions. 
+3. Using the fitted mixture model, for each hypothesis, calculate the false discover rate (FDR) under the two subsamples, respectively. Take the minimum one as its adjusted false discovery rate. 
+4. Repeat steps 1-3 100 times, calculate the integral of the empirical cdf of FDR for each hypothesis, which is essentially its expected true discovery rate. This statistics can become the stability selection. 
 
 ## Boosted EM algorithm to fit the mixture of Uniform and Beta Distributions
 
