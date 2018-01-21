@@ -6,7 +6,7 @@ In large scale testing problems, p-values are usually obtained by using the whol
 
 ## Steps For The Reproducible Screening 
 
-1. Split the whole samples into $y==x^2$
+1. Split the whole samples into $$y==x^2$$
 
 ## Boosted EM algorithm to fit the mixture of Uniform and Beta Distributions
 
