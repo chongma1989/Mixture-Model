@@ -1,10 +1,3 @@
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-</script>
-<script type="text/javascript"
-  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-
 # Reproducible Screening For Large Scale Testing Problem
 Screen differentially expressed genes and gene-gene linkage associations 
 
@@ -19,4 +12,3 @@ In large scale testing problems, p-values are usually obtained by using the whol
 4. Repeat steps 1-3 100 times, calculate the integral of the empirical cdf of FDR for each hypothesis, which is essentially its expected true discovery rate. This statistics can become the stability selection. 
 
 ## Boosted EM algorithm to fit the mixture of Uniform and Beta Distributions
-
