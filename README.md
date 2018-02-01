@@ -12,3 +12,9 @@ In large scale testing problems, p-values are usually obtained by using the whol
 4. Repeat steps 1-3 100 times, calculate the integral of the empirical cdf of FDR for each hypothesis, which is essentially its expected true discovery rate. This statistics can become the stability selection. 
 
 ## Boosted EM algorithm to fit the mixture of Uniform and Beta Distributions
+
+Algorithm:
+1. Update the weights 
+2. Update the scale parameter alpha in the beta distribution
+3. Update the scale parameter beta in the beta distribution
+Repeat steps 1-3 until converges 
