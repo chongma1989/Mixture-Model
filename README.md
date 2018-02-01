@@ -20,14 +20,11 @@ Algorithm:
 
 Repeat steps 1-3 until converges 
 
-The formula is ![formular1](https://latex.codecogs.com/gif.latex? $P(s | O_t )=\text { Probability of a sensor reading value when sleep onset is observed at a time bin } t$ "formular 1")
 
-Here's our logo (hover to see the title text):
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
 
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-Reference-style: 
-![alt text][logo]
-
-[logo]: - <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " />  "Logo Title Text 2"
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
