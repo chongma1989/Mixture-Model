@@ -20,7 +20,7 @@ Algorithm:
 
 Repeat steps 1-3 until converges 
 
-<img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t">
+<img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t" width="100", height="20">
 
 <dl>
   <dt>Definition list</dt>
