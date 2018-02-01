@@ -30,4 +30,4 @@ Inline-style:
 Reference-style: 
 ![alt text][logo]
 
-[logo]: <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " />  "Logo Title Text 2"
+[logo]: - <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " />  "Logo Title Text 2"
