@@ -17,4 +17,5 @@ Algorithm:
 1. Update the weights 
 2. Update the scale parameter alpha in the beta distribution
 3. Update the scale parameter beta in the beta distribution
+
 Repeat steps 1-3 until converges 
