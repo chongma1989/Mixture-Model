@@ -19,18 +19,3 @@ Algorithm:
 3. Update the scale parameter beta in the beta distribution
 
 Repeat steps 1-3 until converges 
-
-<!DOCTYPE html>
-<html>
-<body>
-<img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t" width="100", height="20">
-</body>
-</html>
-
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
