@@ -19,3 +19,13 @@ Algorithm:
 3. Update the scale parameter beta in the beta distribution
 
 Repeat steps 1-3 until converges 
+
+```gnuplot {cmd=true output="html"}
+set terminal svg
+set title "Simple Plots" font ",20"
+set key left box
+set samples 50
+set style data points
+
+plot [-10:10] sin(x),atan(x),cos(atan(x))
+```
