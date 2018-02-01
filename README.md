@@ -20,4 +20,4 @@ Algorithm:
 
 Repeat steps 1-3 until converges 
 
-formula 1: ![alt text](<https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t> "formular 1")
+formula 1: ![alt text](https://latex.codecogs.com/gif.latex?O_t=\text%20{%20Onset%20event%20at%20time%20bin%20}%20t "formular 1")
