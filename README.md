@@ -20,6 +20,9 @@ Algorithm:
 
 Repeat steps 1-3 until converges 
 
+```R {cmd=true}
+curve(dbeta(x,1,2),0,1)
+```
 ```gnuplot {cmd=true output="html"}
 set terminal svg
 set title "Simple Plots" font ",20"
