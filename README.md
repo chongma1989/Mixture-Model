@@ -20,6 +20,10 @@ Algorithm:
 
 Repeat steps 1-3 until converges 
 
+```latex {}
+\alpha=\beta+2
+```
+
 ```R {cmd=true}
 curve(dbeta(x,1,2),0,1)
 ```
