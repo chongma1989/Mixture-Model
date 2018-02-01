@@ -20,19 +20,3 @@ Algorithm:
 
 Repeat steps 1-3 until converges 
 
-```latex {}
-\alpha=\beta+2
-```
-
-```R {cmd=true}
-curve(dbeta(x,1,2),0,1)
-```
-```gnuplot {cmd=true output="html"}
-set terminal svg
-set title "Simple Plots" font ",20"
-set key left box
-set samples 50
-set style data points
-
-plot [-10:10] sin(x),atan(x),cos(atan(x))
-```
