@@ -20,3 +20,4 @@ Algorithm:
 
 Repeat steps 1-3 until converges 
 
+formula 1: ![alt text](https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t "formular 1")
